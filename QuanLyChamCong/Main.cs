@@ -168,6 +168,8 @@ namespace QuanLyChamCong
         private void btn_sprintInfo_Click(object sender, EventArgs e)
         {
             closeAllUtility();
+            Personal_Info personal_Info = new Personal_Info(code_point);
+            personal_Info.Show();
         }
 
         // gửi mail cần sử lý với sql
@@ -268,6 +270,11 @@ namespace QuanLyChamCong
                 code_point = row.Cells["Mã nhân viên"].Value.ToString();
                 showQuickInfo();
             }
+        }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

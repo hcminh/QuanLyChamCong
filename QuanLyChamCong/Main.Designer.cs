@@ -55,6 +55,7 @@
             this.lb_info1 = new System.Windows.Forms.Label();
             this.tb_searchCode = new System.Windows.Forms.TextBox();
             this.btn_addPosition = new System.Windows.Forms.Button();
+            this.btn_logout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dt_listNV)).BeginInit();
             this.gb_modeSalary.SuspendLayout();
             this.SuspendLayout();
@@ -364,11 +365,23 @@
             this.btn_addPosition.UseVisualStyleBackColor = true;
             this.btn_addPosition.Click += new System.EventHandler(this.btn_addPosition_Click);
             // 
+            // btn_logout
+            // 
+            this.btn_logout.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_logout.Location = new System.Drawing.Point(313, 216);
+            this.btn_logout.Name = "btn_logout";
+            this.btn_logout.Size = new System.Drawing.Size(127, 41);
+            this.btn_logout.TabIndex = 19;
+            this.btn_logout.Text = "Đăng xuất";
+            this.btn_logout.UseVisualStyleBackColor = true;
+            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1404, 750);
+            this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btn_addPosition);
             this.Controls.Add(this.tb_searchCode);
             this.Controls.Add(this.gb_modeSalary);
@@ -424,5 +437,6 @@
         private System.Windows.Forms.Label lb_join;
         private System.Windows.Forms.TextBox tb_searchCode;
         private System.Windows.Forms.Button btn_addPosition;
+        private System.Windows.Forms.Button btn_logout;
     }
 }

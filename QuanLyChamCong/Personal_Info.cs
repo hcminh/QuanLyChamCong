@@ -19,6 +19,11 @@ namespace QuanLyChamCong
             InitializeComponent();
             this.code = code;
         }
+        public Personal_Info(string code, string cmd)
+        {
+            InitializeComponent();
+            this.code = code;
+        }
         private void btn_exit_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -26,7 +31,8 @@ namespace QuanLyChamCong
         string code;
         //khởi tạo loal host
         SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-SDNF56S\SQLEXPRESS;Initial Catalog=info_nhanvien;Integrated Security=True");
-
+        //in nhanh thông tin
+        
         private void btn_sprint_Click(object sender, EventArgs e)
         {
             PrintDialog pd = new PrintDialog();
