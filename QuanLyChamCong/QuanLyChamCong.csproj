@@ -77,6 +77,12 @@
     <Compile Include="CheckInOut.Designer.cs">
       <DependentUpon>CheckInOut.cs</DependentUpon>
     </Compile>
+    <Compile Include="Create_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Create_User.Designer.cs">
+      <DependentUpon>Create_User.cs</DependentUpon>
+    </Compile>
     <Compile Include="Employee.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -125,6 +131,9 @@
     </Compile>
     <EmbeddedResource Include="CheckInOut.resx">
       <DependentUpon>CheckInOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Create_User.resx">
+      <DependentUpon>Create_User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

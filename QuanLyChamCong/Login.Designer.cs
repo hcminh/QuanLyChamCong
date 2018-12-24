@@ -33,7 +33,7 @@
             this.lb_password = new System.Windows.Forms.Label();
             this.tb_password = new System.Windows.Forms.TextBox();
             this.btn_login = new System.Windows.Forms.Button();
-            this.btn_exit = new System.Windows.Forms.Button();
+            this.btn_admin = new System.Windows.Forms.Button();
             this.btn_checkInOut = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -71,6 +71,7 @@
             this.tb_password.Location = new System.Drawing.Point(193, 111);
             this.tb_password.Multiline = true;
             this.tb_password.Name = "tb_password";
+            this.tb_password.PasswordChar = '*';
             this.tb_password.Size = new System.Drawing.Size(230, 33);
             this.tb_password.TabIndex = 2;
             this.tb_password.WordWrap = false;
@@ -86,16 +87,16 @@
             this.btn_login.UseVisualStyleBackColor = true;
             this.btn_login.Click += new System.EventHandler(this.btn_login_Click);
             // 
-            // btn_exit
+            // btn_admin
             // 
-            this.btn_exit.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_exit.Location = new System.Drawing.Point(12, 179);
-            this.btn_exit.Name = "btn_exit";
-            this.btn_exit.Size = new System.Drawing.Size(119, 48);
-            this.btn_exit.TabIndex = 5;
-            this.btn_exit.Text = "Thoát";
-            this.btn_exit.UseVisualStyleBackColor = true;
-            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            this.btn_admin.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_admin.Location = new System.Drawing.Point(12, 179);
+            this.btn_admin.Name = "btn_admin";
+            this.btn_admin.Size = new System.Drawing.Size(119, 48);
+            this.btn_admin.TabIndex = 5;
+            this.btn_admin.Text = "Admin";
+            this.btn_admin.UseVisualStyleBackColor = true;
+            this.btn_admin.Click += new System.EventHandler(this.btn_admin_Click);
             // 
             // btn_checkInOut
             // 
@@ -114,7 +115,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(482, 253);
             this.Controls.Add(this.btn_checkInOut);
-            this.Controls.Add(this.btn_exit);
+            this.Controls.Add(this.btn_admin);
             this.Controls.Add(this.btn_login);
             this.Controls.Add(this.lb_password);
             this.Controls.Add(this.tb_password);
@@ -135,7 +136,7 @@
         private System.Windows.Forms.Label lb_password;
         private System.Windows.Forms.TextBox tb_password;
         private System.Windows.Forms.Button btn_login;
-        private System.Windows.Forms.Button btn_exit;
+        private System.Windows.Forms.Button btn_admin;
         private System.Windows.Forms.Button btn_checkInOut;
     }
 }

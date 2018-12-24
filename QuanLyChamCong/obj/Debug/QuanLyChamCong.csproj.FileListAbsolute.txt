@@ -33,3 +33,4 @@ D:\Documents\Project C#\QuanLyChamCong\QuanLyChamCong\obj\Debug\QuanLyChamCong.P
 D:\Documents\Project C#\QuanLyChamCong\QuanLyChamCong\bin\Debug\itextsharp.dll
 D:\Documents\Project C#\QuanLyChamCong\QuanLyChamCong\bin\Debug\itextsharp.xml
 D:\Documents\Project C#\QuanLyChamCong\QuanLyChamCong\obj\Debug\QuanLyChamCong.Personal_Information_Form.resources
+D:\Documents\Project C#\QuanLyChamCong\QuanLyChamCong\obj\Debug\QuanLyChamCong.Create_User.resources
